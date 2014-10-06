@@ -1,0 +1,95 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1, h2 {
+  font-family: "Raleway Bold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h3, h4 {
+  font-family: "Raleway SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1 {
+  font-size: 5em; }
+
+h2 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 4em; }
+
+h4 {
+  font-size: 1.8em; }
+
+h5 {
+  font-family: "Open Sans Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.1em; }
+
+a:link {
+  color: #0066dd; }
+
+a:hover {
+  color: #cc2211; }
+
+/* Common layout elements */
+.tag {
+  font-family: "Raleway Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3em; }
+
+input[type=submit], .button {
+  border-radius: 3px, 3px;
+  background-color: #4cae4c;
+  color: #fff; }
+
+input[type=text] {
+  border-radius: 3px, 3px;
+  color: #919191;
+  border: 0.1em solid #ccc; }
+
+/*
+ * Start defining project-specific styles here
+ *
+ * Also include a starter grid if you'd like
+ * ex: @import 'grids/single-column'
+ *
+ */
+/*
+ * Single center-aligned column grid
+ *
+ * _____________________________________________________
+ * |           outer container = 12 cols               |
+ * |                                                   |
+ * |       __________________________________          |
+ * |       |   .main-column = 8 cols        |          |
+ * |       |                                |          |
+ * |       |                                |          |
+ * |2 cols |                                | 2 cols   |
+ * |       |                                |          |
+ * |       |                                |          |
+ * |       |                                |          |
+ * |       __________________________________          |
+ * _____________________________________________________
+ *
+ */
+body {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  body:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.main-column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%; }
+  .main-column:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=styles.css.map */
